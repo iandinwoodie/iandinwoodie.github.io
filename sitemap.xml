@@ -4,15 +4,22 @@
   
   <url>
     <loc>https://iandinwoodie.github.io/blog/</loc>
+    <lastmod>2019-07-28T19:05:44-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iandinwoodie.github.io/</loc>
+    <lastmod>2019-07-28T19:05:44-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iandinwoodie.github.io/blog/markdown-syntax-guide/</loc>
+    <lastmod>2019-07-28T19:05:44-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://iandinwoodie.github.io/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://iandinwoodie.github.io/</loc>
   </url>
   
   <url>
