@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://iandinwoodie.github.io/css/style.css" data>
 
     <title>Markdown Syntax Guide — Ian Dinwoodie</title>
   </head>
@@ -25,12 +26,14 @@
 
 
     
-  <main class='flex-1'>
-    <header>
-      <h1>Markdown Syntax Guide</h1>
-      <time datetime="2019-07-28 19:05:44 -0400 EDT">Jul 28 2019</time>
-    </header>
-    <article>
+  <main class='flex-1 p-4'>
+    <div class="mb-4">
+      <h1 class="text-2xl font-bold">Markdown Syntax Guide</h1>
+      <time class="text-xs" datetime="2019-07-28 19:05:44 -0400 EDT">
+        Jul 28 2019
+      </time>
+    </div>
+    <article class="markdown">
       <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
 
 <h2 id="headings">Headings</h2>
@@ -153,16 +156,16 @@
 
 <h4 id="code-block-with-hugo-s-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
-&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
-&lt;<span style="color:#f92672">head</span>&gt;
-  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
-  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
-&lt;/<span style="color:#f92672">head</span>&gt;
-&lt;<span style="color:#f92672">body</span>&gt;
-  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
-&lt;/<span style="color:#f92672">body</span>&gt;
-&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
+<div class="highlight"><pre style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#bc7a00">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#008000;font-weight:bold">html</span> <span style="color:#7d9029">lang</span><span style="color:#666">=</span><span style="color:#ba2121">&#34;en&#34;</span>&gt;
+&lt;<span style="color:#008000;font-weight:bold">head</span>&gt;
+  &lt;<span style="color:#008000;font-weight:bold">meta</span> <span style="color:#7d9029">charset</span><span style="color:#666">=</span><span style="color:#ba2121">&#34;UTF-8&#34;</span>&gt;
+  &lt;<span style="color:#008000;font-weight:bold">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#008000;font-weight:bold">title</span>&gt;
+&lt;/<span style="color:#008000;font-weight:bold">head</span>&gt;
+&lt;<span style="color:#008000;font-weight:bold">body</span>&gt;
+  &lt;<span style="color:#008000;font-weight:bold">p</span>&gt;Test&lt;/<span style="color:#008000;font-weight:bold">p</span>&gt;
+&lt;/<span style="color:#008000;font-weight:bold">body</span>&gt;
+&lt;/<span style="color:#008000;font-weight:bold">html</span>&gt;</code></pre></div>
 
 <h2 id="list-types">List Types</h2>
 
@@ -221,7 +224,7 @@
 
 
     <footer class="p-4">
-  <p class="text-xs text-center">© 2019 Copyright Ian Dinwoodie. All rights reserved.</p>
+  <p class="text-xs text-center">© Ian Dinwoodie, 2019. All rights reserved.</p>
 </footer>
 
   </body>
