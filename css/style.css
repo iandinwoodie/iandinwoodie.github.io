@@ -636,6 +636,13 @@ video {
 
 /* Site Specific */
 
+/* Addressing the jumping scroll bar issue.*/
+
+html {
+  margin-left: calc(100vw - 100%);
+  margin-right: 0;
+}
+
 /* Additional vertical padding used by kbd tag. */
 
 .py-05 {
